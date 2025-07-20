@@ -1,0 +1,30 @@
+STEPS 
+
+✅ 1. Create a DynamoDB Table
+Go to the DynamoDB Console:
+
+Table Name: PaceApplications
+
+Partition key: application_id (String)
+
+✅ Done? Great.
+
+✅ 2. Create a Lambda Function
+Go to the Lambda Console:
+
+Runtime: Python 3.12 or similar
+
+Name: savePaceApplication
+
+------Code in Lamda.py:----------
+
+✅ 3. Create an API Gateway Endpoint
+Go to API Gateway
+
+Create a REST API or HTTP API (simpler)
+
+Create a POST /apply endpoint
+
+Integrate it with your Lambda function
+
+Enable CORS if needed.
